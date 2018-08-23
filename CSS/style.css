@@ -36,7 +36,7 @@ img {
 
 }
 
-.main-navigation ul {
+.main-nav ul {
 	display: grid;
 	grid-gap: .5rem;
 	padding: none;
@@ -45,7 +45,7 @@ img {
 }
 
 
-.main-navigation a{
+.main-nav a{
 	background-color: var(--primary);
 	display: block;
 	text-decoration: none;
@@ -57,7 +57,7 @@ img {
 	box-shadow: var(--shadow);
 }
 
-.main-navigation a:hover{
+.main-nav a:hover{
 
 background-color: var(--dark)
 color: var(--light);
@@ -100,7 +100,7 @@ color: var(--light);
 	margin-top: 0;
 	color: var(--light);
 }
-.topbox{
+.top-box{
 	background-color: var(--primary);
 	display: grid;
 	align-items: center;
@@ -108,7 +108,7 @@ color: var(--light);
 	box-shadow: var(--shadow);
 }
 
-.topbox .price {
+.top-box .price {
 	line-height: .4em;
 	font-size: 1rem;
 	padding: 1.5rem 3rem;
